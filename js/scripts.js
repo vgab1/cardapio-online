@@ -135,17 +135,16 @@ checkoutBtn.addEventListener("click", function () {
     Toastify({
       text: "O Restaurante está fechado!",
       duration: 3000,
-
       close: true,
-      gravity: "top", 
-      position: "right", 
-      stopOnFocus: true, 
+      gravity: "top",
+      position: "right",
+      stopOnFocus: true,
       style: {
         background: "#ef4444",
       },
     }).showToast();
+    return;
   }
-  return;
 
   if (cart.length === 0) return;
   if (addressInput.value === "") {
@@ -161,7 +160,7 @@ checkoutBtn.addEventListener("click", function () {
     .join("");
 
   const message = encodeURIComponent(cartItems);
-  const phone = "";
+  const phone = "5561996429369";
 
   window.open(
     `https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`,
@@ -175,7 +174,7 @@ checkoutBtn.addEventListener("click", function () {
 function checkRestaurantOpen() {
   const data = new Date();
   const hora = data.getHours();
-  return hora >= 18 && hora < 22;
+  return hora >= 12 && hora < 22;
 }
 
 const spanItem = document.getElementById("date-span");
