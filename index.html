@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/hamb-1.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/devcoffe.png"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       type="text/css"
@@ -23,16 +27,19 @@
       referrerpolicy="no-referrer"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Dev Burger - O melhor hamburger dev!" />
+    <meta
+      property="og:title"
+      content="DevCoffee - Seu café do dia está aqui. Veja o cardápio!"
+    />
     <meta
       property="og:image"
-      content="https://cardapio-online-virid-ten.vercel.app/assets/hamb-1.png"
+      content="https://cardapio-online-virid-ten.vercel.app/assets/devcoffe.png"
     />
     <meta
       property="og:description"
-      content="O melhor hamburger caseiro do Brasil!"
+      content="Confira nosso cardápio e escolha seu favorito!"
     />
-    <meta property="og:site_name" content="DevBurger" />
+    <meta property="og:site_name" content="DevCoffee" />
 
     <link rel="stylesheet" href="./styles/output.css" />
     <script
@@ -40,19 +47,23 @@
       src="https://cdn.jsdelivr.net/npm/toastify-js"
     ></script>
     <script src="./js/scripts.js" defer></script>
-    <title>Dev Burger</title>
+    <title>DevCoffee</title>
   </head>
   <body>
     <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
       <div class="w-full h-full flex flex-col justify-center items-center">
         <img
-          src="./assets/hamb-1.png"
-          alt="Logo Dev Burger"
+          src="./assets/devcoffe.png"
+          alt="Logo DevCoffee"
           class="w-32 h-32 rounded-full hover:scale-110 duration-200 shadow-lg"
         />
-        <h1 class="text-4xl text-white mt-4 mb-2 font-bold">Dev Burger</h1>
-        <span class="text-white font-medium"> Rua dev 10, Brasil </span>
-
+        <h1 class="text-4xl text-white mt-4 mb-2 font-bold">DevCoffee</h1>
+        <span class="text-white font-medium"
+          >Comece bem o dia com um café especial ☕🍰</span
+        >
+        <span class="text-white font-medium"
+          >Faça seu Pedido pelo WhatsApp</span
+        >
         <div class="bg-green-600 px-4 py-1 mt-5 rounded-lg" id="date-span">
           <span class="text-white font-medium">Seg a Dom - 12:00 as 22:00</span>
         </div>
@@ -67,22 +78,22 @@
       >
         <div class="flex gap-2">
           <img
-            src="./assets/hamb-1.png"
-            alt="Cheese Burger Duplo"
+            src="./assets/croissant.webp"
+            alt="Croissant"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div>
-            <p class="font-bold">Cheese Burger Duplo</p>
+            <p class="font-bold">Croissant</p>
             <p class="text-sm">
-              Pão levinho de fermentação natural da Trigou, burger 160g, queijo
-              prato e maionese da casa
+              Clássico croissant francês, leve e amanteigado, com recheio de
+              queijo e presunto.
             </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 35,00</p>
+              <p class="font-bold text-lg">R$ 8,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Cheese Burger Duplo"
-                data-price="35.00"
+                data-name="Croissant"
+                data-price="8.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -91,22 +102,21 @@
         </div>
         <div class="flex gap-2">
           <img
-            src="./assets/hamb-2.png"
-            alt="Cheese Bacon"
+            src="./assets/donuts.jpeg"
+            alt="Donuts"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div>
-            <p class="font-bold">Cheese Bacon</p>
+            <p class="font-bold">Donuts</p>
             <p class="text-sm">
-              Pão levinho de fermentação natural da Trigou, burger 160g, queijo
-              prato e maionese da casa
+              Donuts macios e frescos, cobertura de chocolate ou baunilha.
             </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 32,00</p>
+              <p class="font-bold text-lg">R$ 7,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Cheese Bacon"
-                data-price="32.00"
+                data-name="Donuts"
+                data-price="7.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -115,22 +125,22 @@
         </div>
         <div class="flex gap-2">
           <img
-            src="./assets/hamb-3.png"
-            alt="Smash Burger"
+            src="./assets/cookies.jpeg"
+            alt="Cookies"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div>
-            <p class="font-bold">Smash Burger</p>
+            <p class="font-bold">Cookies</p>
             <p class="text-sm">
-              Pão levinho de fermentação natural da Trigou, burger 160g, queijo
-              prato e maionese da casa
+              Cookies crocantes por fora e macios por dentro, com gotas de
+              chocolate meio amargo.
             </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 25,00</p>
+              <p class="font-bold text-lg">R$ 6,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Smash Burge"
-                data-price="25.00"
+                data-name="Cookies"
+                data-price="6.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -139,22 +149,70 @@
         </div>
         <div class="flex gap-2">
           <img
-            src="./assets/hamb-4.png"
-            alt="Hamburger Salad"
+            src="./assets/brownie.jpeg"
+            alt="Brownie"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div>
-            <p class="font-bold">Hamburger Salad</p>
+            <p class="font-bold">Brownie</p>
             <p class="text-sm">
-              Pão levinho de fermentação natural da Trigou, burger 160g, queijo
-              prato e maionese da casa
+              Brownie de chocolate intenso com casquinha crocante e interior
+              cremoso.
             </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 20,00</p>
+              <p class="font-bold text-lg">R$ 9,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Hamburger Salad"
-                data-price="20.00"
+                data-name="Brownie"
+                data-price="9.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <img
+            src="./assets/cheesecake.jpeg"
+            alt="Cheesecake"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+          <div>
+            <p class="font-bold">Cheesecake</p>
+            <p class="text-sm">
+              Tradicional cheesecake com base crocante e cobertura de frutas
+              vermelhas.
+            </p>
+            <div class="flex items-center justify-between gap-2 mt-3">
+              <p class="font-bold text-lg">R$ 12,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Cheesecake"
+                data-price="12.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <img
+            src="./assets/torta.jpeg"
+            alt="Torta de Limão"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+          <div>
+            <p class="font-bold">Torta de Limão</p>
+            <p class="text-sm">
+              Torta de limão com base crocante, recheio cremoso e cobertura de
+              merengue tostado.
+            </p>
+            <div class="flex items-center justify-between gap-2 mt-3">
+              <p class="font-bold text-lg">R$ 11,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Torta de Limão"
+                data-price="11.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -171,18 +229,21 @@
       >
         <div class="flex gap-2 w-full">
           <img
-            src="./assets/refri-1.png"
-            alt="Coca-Cola Lata"
+            src="./assets/expresso.jpeg"
+            alt="Expresso"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div class="w-full">
-            <p class="font-bold">Coca-Cola Lata</p>
+            <p class="font-bold">Expresso</p>
+            <p class="text-sm">
+              Café encorpado e aromático, extraído na medida certa.
+            </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 6,50</p>
+              <p class="font-bold text-lg">R$ 6,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Coca-Cola Lata"
-                data-price="6.50"
+                data-name="Expresso"
+                data-price="6.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -191,18 +252,70 @@
         </div>
         <div class="flex gap-2 w-full">
           <img
-            src="./assets/refri-2.png"
-            alt="Coca-Cola Lata"
+            src="./assets/cappuccino.jpeg"
+            alt="Cappuccino"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
           />
           <div class="w-full">
-            <p class="font-bold">Guaraná Lata</p>
+            <p class="font-bold">Cappuccino</p>
+            <p class="text-sm">
+              Café espresso com leite vaporizado e uma leve camada de espuma de
+              leite.
+            </p>
             <div class="flex items-center justify-between gap-2 mt-3">
-              <p class="font-bold text-lg">R$ 6,50</p>
+              <p class="font-bold text-lg">R$ 10,00</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Guaraná Lata"
-                data-price="6.50"
+                data-name="Cappuccino"
+                data-price="10.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 w-full">
+          <img
+            src="./assets/latte.jpeg"
+            alt="Latte"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+          <div class="w-full">
+            <p class="font-bold">Latte Macchiato</p>
+            <p class="text-sm">
+              Café espresso com generosa porção de leite vaporizado e uma fina
+              espuma.
+            </p>
+            <div class="flex items-center justify-between gap-2 mt-3">
+              <p class="font-bold text-lg">R$ 11,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Latte Macchiato"
+                data-price="11.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-2 w-full">
+          <img
+            src="./assets/suco.jpeg"
+            alt="Sucos naturais"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+          <div class="w-full">
+            <p class="font-bold">Sucos naturais</p>
+            <p class="text-sm">
+              Suco 100% natural — laranja, morango ou abacaxi (consultar sabores
+              do dia).
+            </p>
+            <div class="flex items-center justify-between gap-2 mt-3">
+              <p class="font-bold text-lg">R$ 9,00</p>
+              <button
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Sucos naturais"
+                data-price="9.00"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
