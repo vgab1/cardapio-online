@@ -56,7 +56,7 @@ Sistema de cardápio online para cafeterias e confeitarias, com carrinho de comp
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/devcoffee.git
+   git clone https://github.com/vgab1/cardapio-online.git
    Abra o arquivo index.html no navegador.
    ```
 
